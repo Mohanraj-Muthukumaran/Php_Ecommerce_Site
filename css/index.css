@@ -1,0 +1,155 @@
+
+@media(min-width:1200px){
+    
+    #signup-form{
+        position: relative;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    
+    footer{
+        position: fixed;
+    }
+}
+
+@media(max-width:1200px){
+    
+    #signup-form{
+        position: relative;
+        padding-top: 5%;
+        padding-bottom: 5%;
+        margin-bottom: 5%;
+        margin-top: 5%;
+    }
+    
+    footer{
+        position: fixed;
+    }
+}
+
+
+@media(max-width:992px){
+    
+    #signup-form{
+        position: relative;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        margin-bottom: 12%;
+        margin-top: 12%;
+    }
+    
+    footer{
+        position: fixed;
+    }
+}
+
+@media(max-width:768px){
+    
+    #signup-form{
+        position: relative;
+        padding-top: 10%;
+        padding-bottom: 10%;
+        margin-bottom: 20%;
+        margin-top: 12%;
+    }
+    
+    footer{
+        position: fixed;
+    }
+}
+
+/* For Jio Phone */
+@media(max-height:510px){
+    
+    #signup-form{
+        padding-top: 20%;
+    }
+    
+    footer{
+        position: relative;
+    }
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    font-family: roboto,sans-serif;
+}
+
+a{
+    cursor: pointer;
+    text-decoration: none !important;
+}
+
+.navbar-brand{
+    cursor: pointer;
+}
+
+#banner-image{
+    padding-top: 75px;
+    padding-bottom: 50px;
+    text-align: center;
+    color:#f8f8f8;
+    background: url(../image/intro-bg_1.jpg) no-repeat center;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+#banner-content{
+    position: relative;
+    padding-top: 6%;
+    padding-bottom: 6%;
+    margin-top: 12%;
+    margin-bottom: 12%;
+    background-color: rgba(0,0,0,0.7);
+    max-width: 660px;
+    border-radius: 6px;
+}
+
+#banner-content h2{
+    font-weight: bold;
+}
+
+footer{
+    padding: 10px 0;
+    background-color: #101010;
+    color:#9d9d9d;
+    bottom: 0;
+    width: 100%;   
+}
+
+
+/* Login Form and Signup Form Stylings in the media queries*/
+
+/* Products page Styling */
+
+.jumbotron{
+    margin-top: 100px;
+    background-color: #dcdcdc;
+}
+
+.jumbotron h1{
+    font-weight: bold;
+}
+
+.jumbotron p{
+    font-size: 15px;
+}
+
+/* Success Page */
+
+.success .bg-success{
+    border-radius: 6px;
+    padding: 5px;
+    margin: 3px;
+}
+
+.success .bg-success a{
+    text-decoration: none;
+    cursor: pointer;
+}
+
+
